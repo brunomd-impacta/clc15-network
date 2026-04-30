@@ -4,6 +4,8 @@ resource "aws_vpc" "terraform_vpc" {
 
   tags = {
     Name = "vpc-clc15-tf"
+    CC  = "123456"
+    Owner = "DevOps"
   }
 }
 
